@@ -5,21 +5,21 @@ Bu Python projesi, Ekşi Sözlük websitesindeki bir entry başlığındaki tüm
 
 ## Proje Açıklaması
 
-Bu araç, BeautifulSoup ve requests kütüphanelerini kullanarak Ekşi Sözlük websitesinden veri çekme işlemini gerçekleştirir.Verileri daha sonra bir Pandas DataFrame'ine dönüştürüp, son olarak bir CSV dosyasına kaydederek kullanıcıya erişim sağlar. İlgili csv dosyasındaki veri 3 kolondan oluşur sırasıyla: username,entry,date
+Bu araç, BeautifulSoup ve requests kütüphanelerini kullanarak Ekşi Sözlük websitesinden veri çekme işlemini gerçekleştirir.Verileri daha sonra bir Pandas DataFrame'ine dönüştürüp, son olarak bir CSV dosyasına kaydederek kullanıcıya erişim sağlar. İlgili csv dosyasındaki veri 3 kolondan oluşur: username,entry,date, Entryler kronolojik olarak tutulur.
 
 ## Nasıl Kullanılır
 
-1. Projeyi bilgisayarınıza indirin:
+**1.** Projeyi bilgisayarınıza indirin:
 
-2. Gerekli kütüphaneleri yükleyin:
+**2.** Gerekli kütüphaneleri yükleyin:
 ``pip install -r requirements.txt``
 
-3. Komut satırında proje dizininde aşağıdaki komutu kullanarak script'i çalıştırın:
-``python3 main.py <entry_basligi_linki>``
-Örneğin:
-``python main.py "https://eksisozluk.com/entry-basligi"``
+**3.** Komut satırında proje dizininde aşağıdaki komutu kullanarak script'i çalıştırın:  
+ ``python main.py <entry_basligi_linki>``  
+**Örneğin:**  
+ ``python main.py "https://eksisozluk.com/entry-basligi"``  
 
-4. İşlem tamamlandığında, proje dizininde `entries.csv` adında bir CSV dosyası oluşturulacaktır. Bu dosya, çekilen verileri içerir.
+**4.** İşlem tamamlandığında, proje dizininde `entries.csv` adında bir CSV dosyası oluşturulacaktır. Bu dosya, çekilen verileri içerir.
 
 ## Notlar
 - Bu araç, Ekşi Sözlük websitesinin yapısına bağlı olduğu için zaman içinde değişikliklere uğrayabilir. Bu durumda, kodun güncellenmesi gerekebilir.
