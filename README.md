@@ -1,2 +1,2 @@
-# Eksi-Scarper
+# Eksi-Scraping
 Ekşi Sözlük Veri Çekme
