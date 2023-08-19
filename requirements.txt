@@ -1,0 +1,4 @@
+beautifulsoup4==4.12.2
+cchardet==2.1.7
+pandas==2.0.3
+Requests==2.31.0
