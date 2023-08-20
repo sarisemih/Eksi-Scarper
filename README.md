@@ -11,7 +11,7 @@ Bu araç, BeautifulSoup ve requests kütüphanelerini kullanarak Ekşi Sözlük 
 
 **1.** Projeyi bilgisayarınıza indirin:
 
-**2.** Gerekli kütüphaneleri yükleyin: (BeautifulSoup,Pandas,Requests)
+**2.** Gerekli kütüphaneleri yükleyin: (BeautifulSoup,Pandas,Requests)  
 ``pip install -r requirements.txt``
 
 **3.** Komut satırında proje dizininde aşağıdaki komutu kullanarak script'i çalıştırın:  
