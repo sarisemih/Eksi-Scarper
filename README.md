@@ -22,6 +22,5 @@ Bu araç, BeautifulSoup ve requests kütüphanelerini kullanarak Ekşi Sözlük 
 **4.** İşlem tamamlandığında, proje dizininde `entries.csv` adında bir CSV dosyası oluşturulacaktır. Bu dosya, çekilen verileri içerir.
 
 ## Notlar
-- Bu araç, Ekşi Sözlük websitesinin yapısına bağlı olduğu için zaman içinde değişikliklere uğrayabilir. Bu durumda, kodun güncellenmesi gerekebilir.
 - Web kazıma etik kurallara uymak önemlidir. Bu aracı kullanırken sık sık istek yapmaktan kaçının ve gereksiz yere yük oluşturmayın.
 
